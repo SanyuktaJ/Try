@@ -7,4 +7,6 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface CarsDAO extends JpaRepository<CarsClass, Long> {
+  
+  System.out.println("QWERTY");
 }
